@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>이래경 portfolio</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
+
+    *{margin: 0; padding: 0; box-sizing: border-box;}
+    ul, li{list-style: none;}
+    a{color: inherit; text-decoration: none;}
+    body{
+      font-size: 1.125rem;
+      color: #4A4340;
+      font-family: 'Noto Sans KR', sans-serif;
+    }
+    header{
+      width: 100vw;
+      height: 40vh;
+    }
+    section{
+      width: 100vw;
+      height: 350vh;
+    }
+    section>div{
+      width: 1380px;
+      height: auto;
+    }
+    .projectTextCon{
+      width: 30vw;
+    }
+    .projectTextCon article{
+      width: 14px;
+      height: 4px;
+      border-radius: 4px;
+      background-color: #EEC6B5;
+    }
+    .pageLinkButton p{
+      width: 10vw;
+      line-height: 44px;
+      border-radius: 22px;
+      border: 1px solid #B18978;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.5s;
+      color: #4A4340;
+    }
+    .pageLinkButton p:hover{
+      background-color: #B18978;
+    }
+    .pageLinkButton p a{
+      transition: 0.5s;
+    }
+    .pageLinkButton p:hover a{
+      color: #fff;
+    }
+    #designWork li:first-child{
+      width: 404px;
+      height: 404px;
+      background-color: #B18978;
+      overflow: hidden;
+    }
+    #designWork ul img{
+      transition: all 0.5s;
+    }
+    #designWork ul:hover img{
+      transform: scale(1.3);
+      opacity: 0.3;
+    }
+    footer{
+      width: 100vw;
+      height: 30vh;
+      background-color: #B18978;
+    }
+    footer p{
+      margin-left: 20vw;
+    }
+    .color-main{
+      color: #B18978;
+    }
+    .ma-top-10vh{
+      margin-top: 10vh;
+    }
+    .flex-sa{
+      display: flex;
+      justify-content: space-around;
+    }
+    .flex-sb{
+      display: flex;
+      justify-content: space-between;
+    }
+    .flex-cen{
+      display: flex;
+      justify-content: center;
+    }
+    .flex-start{
+      display: flex;
+      justify-content: start;
+    }
+    .algn-cen{
+      align-items: center;
+    }
+    .flex-cen-cen{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .algn-st{
+      align-items: flex-start;
+    }
+    .flex-clm{
+      flex-direction: column;
+    }
+    .font-18px{
+      font-size: 1.125rem;
+    }
+    .font-20px{
+      font-size: 1.25rem;
+    }
+    .font-22px{
+      font-size: 1.375rem;
+    }
+    .font-32px{
+      font-size: 2rem;
+    }
+    .font-48px{
+      font-size: 3rem;
+    }
+    .text-align{
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header class="flex-sa algn-st">
+    <div class="ma-top-10vh">
+      <h1 class="font-48px color-main">안녕하십니까</h1>
+      <h1 class="font-48px">성실하게 성장할 준비가 된</h1>
+      <h1 class="font-48px color-main">이래경입니다.</h1>
+    </div>
+    <div class="ma-top-10vh"><p class="font-32px color-main">PORTFOLIO</p></div>
+  </header>
+  <section class="flex-sa flex-clm algn-cen">
+    <h1 class="font-48px color-main">Project</h1>
+    <div class="flex-sb">
+      <div class="projectTextCon flex-sa flex-clm">
+        <h1 class="font-48px color-main">국립중앙박물관</h1>
+        <p>기존 사이트에서 가려져있던 콘텐츠들을 꺼내고, 많은 사람들이 궁금해 할 콘텐츠들을
+          메인페이지에 내세워 돋보이게 했습니다. </p>
+        <p>반응형 홈페이지 / 웹 및 모바일 리뉴얼<br>
+          프로젝트 : 개인 프로젝트(기여도 100%)</p>
+        <div class="flex-start">
+          <article></article>
+          <p>서브페이지 (온라인 전시관) 경로
+            <br>: 상단 메뉴 ' 전시 - 온라인 전시관 ' 클릭
+            <br>혹은 메인페이지 '모두를 위한 박물관' 섹션 중앙 온라인 전시관 클릭
+           </p>
+        </div>
+        <div class="flex-start">
+          <article></article>
+          <p>상세페이지 (전시품 설명 페이지) 경로
+            <br>: 상단 메뉴 '소장품 - 큐레이터 추천 소장품' 클릭
+            <br>혹은 메인페이지 '대표 전시품' 섹션 반가사유상 오른쪽 '전이형록필 책가도' 클릭</p>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <a href=""><img src="./img/web1.jpg" alt="국립중앙박물관"></a>
+        </div>
+        <div class="pageLinkButton flex-sa">
+          <p><a href="https://leeraerae.github.io/museum/" class="color-main">메인페이지</a></p>
+          <p><a href="https://leeraerae.github.io/museumsub/" class="color-main">서브(e뮤지엄))</a></p>
+          <p><a href="https://leeraerae.github.io/museum_explanation/" class="color-main">서브(전시품 상세)</a></p>
+        </div>
+      </div>
+     
+    </div>
+
+    <div class="flex-sb">
+
+      <div class="flex-sa flex-clm projectTextCon">
+        <h1 class="font-48px color-main">Bloom</h1>
+        <p>못난이 과일을 활용한 티백 브랜드의 브랜드 홍보와 제품 구매를 겸한 사이트로 디자인하여
+          브랜드 가치를 알리며 착한 소비를 이끄는 효과를 얻어내고자 하였습니다.</p>
+        <p>반응형 웹페이지 / 브랜드 창작<br>
+          프로젝트 : 개인 프로젝트(기여도 100%)
+        </p>
+        <div class="flex-start">
+          <article></article>
+          <p>서브페이지 ( 베스트 제품 서브페이지 ) 경로
+            <br>: 상단 메뉴 ' 티샵 - BEST ' 클릭
+            <br>혹은 메인페이지 섹션 중 Best Product 'view more ' 버튼 클릭
+           </p>
+        </div>
+        <div class="flex-start">
+          <article></article>
+          <p>상세페이지 ( 브랜드 소개 서브페이지 ) 경로
+            <br>: 상단 메뉴 'Bloom - About us' 클릭</p>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <a href=""><img src="./img/web3.jpg" alt="못난이 과일 티백 브랜드 웹"></a>
+        </div>
+        <div class="flex-sa pageLinkButton">
+          <p><a href="https://leeraerae.github.io/bloom/" class="color-main">메인페이지</a></p>
+          <p><a href="https://leeraerae.github.io/bloom_best/" class="color-main">서브(BEST)</a></p>
+          <p><a href="https://leeraerae.github.io/bloom_about/" class="color-main">서브(브랜드소개)</a></p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="flex-sb">
+      <div class="flex-sa flex-clm projectTextCon">
+        <h1 class="font-48px color-main">VISIT BUSAN</h1>
+        <p>부산 관광을 홍보하고, 부산을 찾는 사람들에게 필요한 정보를 알아보기 쉽도록하여
+          관광 정보 제공 목적을 내세웠습니다.</p>
+        <p>웹 리뉴얼<br>
+          프로젝트 : 팀 프로젝트(기여도 80%)</p>
+        <div class="flex-start">
+          <article></article>
+          <p>메인페이지 경로
+            <br>: 언어설정 페이지 왼쪽 위치 ' KOREAN ' 클릭
+           </p>
+        </div>
+        <div class="flex-start">
+          <article></article>
+          <p>서브페이지 (여행 큐레이터) 경로
+            <br>: 상단 메뉴 '테마여행 - 여행 큐레이터' 클릭</p>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <a href=""><img src="./img/web2.jpg" alt="부산관광포털"></a>
+        </div>
+        <div class="flex-sa pageLinkButton">
+          <p><a href="https://leeraerae.github.io/visit_busan_intro/" class="color-main">INTRO</a></p>
+          <p><a href="https://leeraerae.github.io/visit_busan/" class="color-main">메인페이지</a></p>
+          <p><a href="https://leeraerae.github.io/visit_busan_sub/" class="color-main">서브(여행큐레이션)</a></p>
+        </div>
+      </div>
+      
+    </div>
+
+
+    
+
+    <div id="designWork">
+      <h1 class="font-48px text-align">이런 작업도 할 수 있어요!</h1>
+      <div class="flex-sb ma-top-10vh">
+        <ul>
+          <li><a href="https://leeraerae.github.io/eventpage/"><img src="./img/design1.jpg" alt="이벤트페이지"></a></li>
+          <li class="text-align">용기내 챌린지 이벤트페이지 창작</li>
+        </ul>
+        <ul>
+          <li><a href="https://leeraerae.github.io/uglylogo/"><img src="./img/design3.jpg" alt="베이글 카페 로고 창작"></a></li>
+          <li class="text-align">베이글 카페 로고 창작</li>
+        </ul>
+        <ul>
+          <li><a href="https://leeraerae.github.io/iconwork/"><img src="./img/design2.jpg" alt="칵테일 아이콘 창작"></a></li>
+          <li class="text-align">칵테일 아이콘 창작</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="ma-top-10vh flex-cen algn-cen">
+    <h1 class="font-48px">Contact</h1>
+    <p>E-mail : rrreea@naver.com<br>
+      Phone : 010-2701-9973</p>
+  </footer>
+</body>
+</html>
